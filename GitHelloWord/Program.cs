@@ -9,6 +9,9 @@ namespace GitHelloWord
     {
         static void Main(string[] args)
         {
+            string helloWord = "Hello World!!!";
+            Console.WriteLine(helloWord);
+            Console.ReadLine();
         }
     }
 }
