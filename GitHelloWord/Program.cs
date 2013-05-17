@@ -9,9 +9,10 @@ namespace GitHelloWord
     {
         static void Main(string[] args)
         {
-            string helloWord = "I can not use github!!!";
+   string helloWord = "Hello World!!!";
             Console.WriteLine(helloWord);
             Console.ReadLine();
+
         }
     }
 }
