@@ -9,8 +9,11 @@ namespace GitHelloWord
     {
         static void Main(string[] args)
         {
-            string helloWord = "Hello World!!!";
-            Console.WriteLine(helloWord);
+            //string helloWord = "Hello World!!!";
+            //Console.WriteLine(helloWord);
+
+            Person p = new Person("小李",21);
+            p.getPerson();
             Console.ReadLine();
         }
     }
